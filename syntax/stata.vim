@@ -435,6 +435,8 @@ syn keyword stataCommand zipfile
 " -----------------------------------------------------------------------------
 syn keyword stataCommand asdoc
 syn keyword stataCommand astile
+syn keyword stataCommand catcibar
+syn keyword stataCommand cibar
 syn keyword stataCommand collin
 syn keyword stataCommand distinct
 syn keyword stataCommand eglist
@@ -448,6 +450,7 @@ syn keyword stataCommand fegen
 syn keyword stataCommand findname
 syn keyword stataCommand fisid
 syn keyword stataCommand fmerge
+syn keyword stataCommand fre
 syn keyword stataCommand flevelsof
 syn keyword stataCommand grc1leg
 syn keyword stataCommand gcollapse

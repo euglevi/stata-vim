@@ -206,6 +206,8 @@ syn keyword stataCommand ivreg[ress]
 syn keyword stataCommand jackknife
 syn keyword stataCommand joinby
 syn keyword stataCommand keep
+syn keyword stataCommand kwallis
+syn keyword stataCommand ksmirnov
 syn keyword stataCommand la[bel]
 syn keyword stataCommand labelbook
 syn keyword stataCommand levelsof
@@ -299,6 +301,7 @@ syn keyword stataCommand _rmcoll
 syn keyword stataCommand _rmdcoll
 syn keyword stataCommand _rmcollright
 syn keyword stataCommand _robust
+syn keyword stataCommand ranksum
 syn keyword stataCommand rcof
 syn keyword stataCommand recast
 syn keyword stataCommand recode

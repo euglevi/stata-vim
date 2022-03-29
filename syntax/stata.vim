@@ -125,6 +125,7 @@ syn keyword stataCommand clear
 syn keyword stataCommand cloglog
 syn keyword stataCommand codebook
 syn keyword stataCommand collapse
+syn keyword stataCommand collect
 syn keyword stataCommand corr[elate]
 syn keyword stataCommand compress
 syn keyword stataCommand contrast

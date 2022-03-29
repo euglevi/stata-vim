@@ -494,6 +494,7 @@ syn keyword stataCommand labvarch
 syn keyword stataCommand labvalclone
 syn keyword stataCommand labvalcombine
 syn keyword stataCommand mdesc
+syn keyword stataCommand mgof
 syn keyword stataCommand missings
 syn keyword stataCommand outreg[2]
 syn keyword stataCommand ppmlhdfe

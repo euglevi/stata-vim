@@ -59,7 +59,7 @@ syn match   stataType /\<strL\?[0-9]*\>/
 syn keyword stataTodo TODO FIXME XXX contained
 
 " single line, triple slash continuing line comment comes free
-syn region stataStarComment  start=/^\s*\*/ end=/$/ contains=stataComment,stataTodo oneline
+syn region stataStarComment  start=/^\*/ end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="\s//"   end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="\s///"  end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="^//"    end=/$/ contains=stataComment,stataTodo oneline
@@ -193,9 +193,13 @@ syn keyword stataCommand gnbreg
 syn keyword stataCommand graph
 syn keyword stataCommand gsort
 syn keyword stataCommand hausman
+syn keyword stataCommand heckman
+syn keyword stataCommand heckoprobit
+syn keyword stataCommand heckpoisson
+syn keyword stataCommand heckprobit
 syn keyword stataCommand help
 syn keyword stataCommand hexdump
-syn keyword stataCommand hist
+syn keyword stataCommand hist[ogram]
 syn keyword stataCommand hotelling
 syn keyword stataCommand icd9[p]
 syn keyword stataCommand icd10
@@ -206,6 +210,7 @@ syn keyword stataCommand infix
 syn keyword stataCommand input
 syn keyword stataCommand insheet
 syn keyword stataCommand inspect
+syn keyword stataCommand ipolate
 syn keyword stataCommand iqreg
 syn keyword stataCommand isid
 syn keyword stataCommand ivreg[ress]
@@ -413,6 +418,7 @@ syn keyword stataCommand xtdpdsys
 syn keyword stataCommand xtfrontier
 syn keyword stataCommand xtgls
 syn keyword stataCommand xtgee
+syn keyword stataCommand xtheckman
 syn keyword stataCommand xtile
 syn keyword stataCommand xtivreg
 syn keyword stataCommand xtline
@@ -464,6 +470,7 @@ syn keyword stataCommand fmerge
 syn keyword stataCommand fre
 syn keyword stataCommand flevelsof
 syn keyword stataCommand grc1leg
+syn keyword stataCommand grc1leg2
 syn keyword stataCommand gcollapse
 syn keyword stataCommand greshape
 syn keyword stataCommand gegen
@@ -501,6 +508,7 @@ syn keyword stataCommand labvarch
 syn keyword stataCommand labvalclone
 syn keyword stataCommand labvalcombine
 syn keyword stataCommand mdesc
+syn keyword stataCommand mipolate
 syn keyword stataCommand mgof
 syn keyword stataCommand missings
 syn keyword stataCommand outreg[2]

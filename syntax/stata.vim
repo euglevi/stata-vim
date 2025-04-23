@@ -59,7 +59,7 @@ syn match   stataType /\<strL\?[0-9]*\>/
 syn keyword stataTodo TODO FIXME XXX contained
 
 " single line, triple slash continuing line comment comes free
-syn region stataStarComment  start=/^\*/ end=/$/ contains=stataComment,stataTodo oneline
+syn region stataStarComment  start=/^\s*\*\s/ end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="\s//"   end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="\s///"  end=/$/ contains=stataComment,stataTodo oneline
 syn region stataSlashComment start="^//"    end=/$/ contains=stataComment,stataTodo oneline

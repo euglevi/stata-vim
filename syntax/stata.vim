@@ -624,7 +624,6 @@ syn region stataString start=/"/ end=/"/ oneline contains=@stataMacroGroup
 
 " Clusters {{{
 " -----------------------------------------------------------------------------
-" syn cluster stataFuncGroup contains=@stataMacroGroup,stataFunc,stataString,stataEstring,stataParen,stataBracket,stataComment,stataNumber,stataFloat,stataBinNumber,stataHexNumber,stataOctNumber
 syn cluster stataFuncGroup contains=@stataMacroGroup,stataFunc,stataString,stataEstring,stataParen,stataBracket,stataComment,stataSlashComment,stataStarComment,stataNumber,stataFloat,stataBinNumber,stataHexNumber,stataOctNumber
 syn cluster stataMacroGroup contains=stataGlobal,stataLocal
 syn cluster stataParenGroup contains=stataParenError,stataBracketError,stataBraceError,stataSpecial

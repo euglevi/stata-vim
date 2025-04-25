@@ -123,6 +123,7 @@ syn keyword stataCommand class
 syn keyword stataCommand classutil
 syn keyword stataCommand clear
 syn keyword stataCommand cloglog
+syn keyword stataCommand cluster
 syn keyword stataCommand codebook
 syn keyword stataCommand collapse
 syn keyword stataCommand collect
@@ -279,6 +280,7 @@ syn keyword stataCommand outfile
 syn keyword stataCommand outsheet
 syn keyword stataCommand _parse
 syn keyword stataCommand pause
+syn keyword stataCommand pca
 syn keyword stataCommand pctile
 syn keyword stataCommand _pctile
 syn keyword stataCommand permute
@@ -457,6 +459,7 @@ syn keyword stataCommand cibar
 syn keyword stataCommand collin
 syn keyword stataCommand distinct
 syn keyword stataCommand eglist
+syn keyword stataCommand eofplot
 syn keyword stataCommand estout
 syn keyword stataCommand estpost
 syn keyword stataCommand eststo

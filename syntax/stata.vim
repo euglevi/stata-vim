@@ -514,6 +514,7 @@ syn keyword stataCommand mdesc
 syn keyword stataCommand mipolate
 syn keyword stataCommand mgof
 syn keyword stataCommand missings
+syn keyword stataCommand mplotoffset
 syn keyword stataCommand outreg[2]
 syn keyword stataCommand ppmlhdfe
 syn keyword stataCommand psmatch2
